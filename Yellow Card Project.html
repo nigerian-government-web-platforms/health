@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://yellowcardnigeria.com/dashboard -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    
+    <title>Yellow Card Project</title>
+    <meta name="keywords" content="Yellow Card Project">
+    <meta name="description" content="Yellow Card Project">
+    <meta name="author" content="Yellow Card Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font CSS (Via CDN) -->
+    <link href="./Yellow Card Project_files/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link href="./Yellow Card Project_files/style.css" rel="stylesheet" type="text/css"><link href="./Yellow Card Project_files/theme.css" rel="stylesheet" type="text/css"><link href="./Yellow Card Project_files/adminpanels.css" rel="stylesheet" type="text/css"><link href="./Yellow Card Project_files/admin-forms.css" rel="stylesheet" type="text/css">   <link href="./Yellow Card Project_files/dataTables.bootstrap.css" rel="stylesheet" type="text/css">   <link href="./Yellow Card Project_files/dataTables.editor.css" rel="stylesheet" type="text/css">   
+  <link href="./Yellow Card Project_files/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css">  <link href="./Yellow Card Project_files/daterangepicker.css" rel="stylesheet" type="text/css">    <link href="./Yellow Card Project_files/style.css" rel="stylesheet" type="text/css">	<link rel="stylesheet" href="./Yellow Card Project_files/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="./Yellow Card Project_files/css">
+    <link rel="stylesheet" type="text/css" href="./Yellow Card Project_files/css(1)">
+	   <link rel="stylesheet" type="text/css" href="./Yellow Card Project_files/chosen.min.css">
+
+	<script src="./Yellow Card Project_files/jquery-1.12.4.js"></script>
+	<script src="./Yellow Card Project_files/jquery-ui.js"></script>
+        
+	<script src="./Yellow Card Project_files/customajax.js"></script>
+    <link rel="shortcut icon" href="https://yellowcardnigeria.com/assets/img/favicon.ico">
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="httpss://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="httpss://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css"></style><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<body class="dashboard-page sb-l-o sb-r-c">
+ <div id="main">
+
+        <!-- Start: Header -->
+        <header class="navbar navbar-fixed-top bg-light">
+            <div class="navbar-branding">
+           
+          
+                <ul class="nav navbar-nav pull-right hidden">
+                    <li>
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="sidebar-menu-toggle">
+                            <span class="octicon octicon-ruby fs20 mr10 pull-right "></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          
+            <ul class="nav navbar-nav navbar-right">
+               
+                <li class="dropdown">
+                    <a href="https://yellowcardnigeria.com/dashboard#" class="dropdown-toggle fw600 p15 glyphicons glyphicons-user_add" data-toggle="dropdown"> 
+
+                        <span>
+                                                 </span>
+                        <span class="caret caret-tp hidden-xs"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-persist pn w250 bg-white" role="menu">
+                      <li class="br-t of-h">
+                            <a href="https://yellowcardnigeria.com/login/admin_logout" class="fw600 p12 animated animated-short fadeInDown">Logout  </a>
+                       </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </header>
+        <!-- End: Header -->
+
+
+        <!-- Start: Sidebar -->
+        <aside id="sidebar_left" class="nano nano-primary">
+            <div class="nano-content">
+
+                <!-- Start: Sidebar Header -->
+                <header class="sidebar-header">
+                    <div class="user-menu">
+                        <div class="row text-center mbn">
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/dashboard.html" class="text-primary" data-toggle="tooltip" data-placement="top" title="Dashboard">
+                                    <span class="glyphicons glyphicons-home"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/pages_messages.html" class="text-info" data-toggle="tooltip" data-placement="top" title="Messages">
+                                    <span class="glyphicons glyphicons-inbox"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/pages_profile.html" class="text-alert" data-toggle="tooltip" data-placement="top" title="Tasks">
+                                    <span class="glyphicons glyphicons-bell"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/pages_timeline.html" class="text-system" data-toggle="tooltip" data-placement="top" title="Activity">
+                                    <span class="glyphicons glyphicons-imac"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/pages_profile.html" class="text-danger" data-toggle="tooltip" data-placement="top" title="Settings">
+                                    <span class="glyphicons glyphicons-settings"></span>
+                                </a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="https://yellowcardnigeria.com/pages_gallery.html" class="text-warning" data-toggle="tooltip" data-placement="top" title="Cron Jobs">
+                                    <span class="glyphicons glyphicons-restart"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- End: Sidebar Header -->
+
+                <!-- sidebar menu -->
+                <div class="logo-container logo52 45">
+                   <img src="./Yellow Card Project_files/logo.jpeg">
+                </div>
+                <ul class="nav sidebar-menu">
+                <li class="sidebar-label pt20 rolez">
+                                  Logged in as <br>" "
+             <div class="col-xs-12 pos45">
+                <div class="col-xs-10">
+                 <button type="button" class="btn btn-lg btn-success btn-block">General users</button>
+                </div>
+             </div>
+                </li>
+                    <li class="sidebar-label pt20">Menu</li>
+                     <li>
+                            <a class="accordion-toggle" href="https://yellowcardnigeria.com/dashboard">
+                                <span class="glyphicons glyphicons-fire"></span>
+                                <span class="sidebar-title">Dashboard</span>
+                            
+                            </a>
+                        </li> 
+                                               
+                            <li>
+                            <a class="accordion-toggle" href="https://yellowcardnigeria.com/dashboard#">
+                                <span class="glyphicons glyphicons-user"></span>
+                                <span class="sidebar-title">Yellow Card Details</span>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="nav sub-nav">
+                                 <li>
+                                    <a href="https://yellowcardnigeria.com/general_user/void_users_list">
+                                        <span class="glyphicons glyphicons-show_big_thumbnails"></span>Void Yellow card List
+                                    </a>
+                                </li>
+                               
+                            </ul>
+                      </li> 
+
+
+
+
+                                            
+                    
+                      
+                </ul>
+              
+            </div>
+        </aside>
+
+ <section id="content_wrapper">
+
+            <!-- Start: Topbar-Dropdown -->
+            <div id="topbar-dropmenu">
+                <div class="topbar-menu row">
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-success">
+                            <span class="metro-icon glyphicons glyphicons-inbox"></span>
+                            <p class="metro-title">Messages</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-info">
+                            <span class="metro-icon glyphicons glyphicons-parents"></span>
+                            <p class="metro-title">Users</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-alert">
+                            <span class="metro-icon glyphicons glyphicons-headset"></span>
+                            <p class="metro-title">Support</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-primary">
+                            <span class="metro-icon glyphicons glyphicons-cogwheels"></span>
+                            <p class="metro-title">Settings</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-warning">
+                            <span class="metro-icon glyphicons glyphicons-facetime_video"></span>
+                            <p class="metro-title">Videos</p>
+                        </a>
+                    </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <a href="https://yellowcardnigeria.com/dashboard#" class="metro-tile bg-system">
+                            <span class="metro-icon glyphicons glyphicons-picture"></span>
+                            <p class="metro-title">Pictures</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Topbar-Dropdown -->             <section id="content" class="animated fadeIn">
+  
+ <div class="row">
+        <div class="col-md-9">
+
+            <!-- Form Wizard -->
+            <div class="admin-form theme-primary">
+
+                <div class="panel">
+                                  
+                        <div class="panel-body">
+                       
+                            <div class="section-divider mb40 mt20"><span> Personal Information</span></div>
+                            <div class="section row">
+                                <div class="col-md-6">
+                                    <label for="firstname" class="field prepend-icon">
+                                        <input readonly="" type="text" name="firstname" id="firstname" class="gui-input" value="WAKAWA">
+                                        <label for="firstname" class="field-icon"><i class="fa fa-user"></i></label>  
+                                    </label>
+                                </div><!-- end section -->
+                               
+
+                                <div class="col-md-6">
+                                    <label for="lastname" class="field prepend-icon">
+                                        <input readonly="" type="text" name="lastname" id="lastname" class="gui-input" value="KUCHELI ALI">
+                                        <label for="lastname" class="field-icon"><i class="fa fa-user"></i></label>  
+                                    </label>
+                                </div><!-- end section -->
+                               
+                            </div><!-- end .section row section -->  
+                            <div class="section">                                   
+
+                                <div class="input-group date" id="datetimepicker2">
+                                    <span class="input-group-addon " style="pointer-events: none;"><i class="fa fa-calendar"></i>
+                                    </span>
+                                    <input readonly="" type="text" class="form-control" placeholder="Date of Birth" name="dob" value="08/28/1981">
+                                   
+                                </div>
+
+                            </div>
+                            <div class="section-divider mv40 "><span> Gender </span></div><!-- .section-divider --> 
+                                        
+                                        <div class="section row " style="pointer-events: none;">
+                                        
+                                            <div class="col-md-6 pad-r40 border-right">
+                                                <div class="option-group field">
+                                                    <label for="female" class="option option-primary block">
+                                                        <input readonly="" type="radio" name="gender" id="female" value="female" checked="">
+                                                        <span class="radio"></span> Female
+                                                    </label>
+                                                    
+                                                    <label for="male" class="option block option-primary mt10">
+                                                        <input readonly="" type="radio" name="gender" id="male" value="female">
+                                                       <span class="radio"></span> Male                
+                                                    </label>                            
+                                                                                                      
+                                                </div>
+                                                                    
+                                            </div><!-- end .section section -->  
+                                            
+                                        </div> <!-- end .section row section -->
+                            <div class="section">
+                                    <label for="mobile_phone" class="field prepend-icon">
+                                        <input readonly="" type="tel" name="mobile_phone" id="mobile_phone" class="gui-input phone-group" value="08027374986">
+                                        <label for="mobile_phone" class="field-icon"><i class="fa fa-mobile-phone"></i></label>  
+                                    </label>
+                                   
+                            </div><!-- end section -->
+               
+                                                     
+
+                            
+                                <div class="section">
+                                <label class="field select">
+                                    <select id="country" name="country" tyle="pointer-events: none;">
+                                        <option value="">Select Your Country</option>
+                                                                                        <option value="AD">ANDORRA</option>
+                                                                                        <option value="AE">UNITED ARAB EMIRATES</option>
+                                                                                        <option value="AF">AFGHANISTAN</option>
+                                                                                        <option value="AG">ANTIGUA AND BARBUDA</option>
+                                                                                        <option value="AI">ANGUILLA</option>
+                                                                                        <option value="AL">ALBANIA</option>
+                                                                                        <option value="AM">ARMENIA</option>
+                                                                                        <option value="AN">NETHERLANDS ANTILLES</option>
+                                                                                        <option value="AO">ANGOLA</option>
+                                                                                        <option value="AQ">ANTARCTICA</option>
+                                                                                        <option value="AR">ARGENTINA</option>
+                                                                                        <option value="AS">AMERICAN SAMOA</option>
+                                                                                        <option value="AT">AUSTRIA</option>
+                                                                                        <option value="AU">AUSTRALIA</option>
+                                                                                        <option value="AW">ARUBA</option>
+                                                                                        <option value="AZ">AZERBAIJAN</option>
+                                                                                        <option value="BA">BOSNIA AND HERZEGOVINA</option>
+                                                                                        <option value="BB">BARBADOS</option>
+                                                                                        <option value="BD">BANGLADESH</option>
+                                                                                        <option value="BE">BELGIUM</option>
+                                                                                        <option value="BF">BURKINA FASO</option>
+                                                                                        <option value="BG">BULGARIA</option>
+                                                                                        <option value="BH">BAHRAIN</option>
+                                                                                        <option value="BI">BURUNDI</option>
+                                                                                        <option value="BJ">BENIN</option>
+                                                                                        <option value="BL">SAINT BARTHELEMY</option>
+                                                                                        <option value="BM">BERMUDA</option>
+                                                                                        <option value="BN">BRUNEI DARUSSALAM</option>
+                                                                                        <option value="BO">BOLIVIA</option>
+                                                                                        <option value="BR">BRAZIL</option>
+                                                                                        <option value="BS">BAHAMAS</option>
+                                                                                        <option value="BT">BHUTAN</option>
+                                                                                        <option value="BW">BOTSWANA</option>
+                                                                                        <option value="BY">BELARUS</option>
+                                                                                        <option value="BZ">BELIZE</option>
+                                                                                        <option value="CA">CANADA</option>
+                                                                                        <option value="CC">COCOS (KEELING) ISLANDS</option>
+                                                                                        <option value="CD">CONGO, THE DEMOCRATIC REPUBLIC OF THE</option>
+                                                                                        <option value="CF">CENTRAL AFRICAN REPUBLIC</option>
+                                                                                        <option value="CG">CONGO</option>
+                                                                                        <option value="CH">SWITZERLAND</option>
+                                                                                        <option value="CI">COTE D IVOIRE</option>
+                                                                                        <option value="CK">COOK ISLANDS</option>
+                                                                                        <option value="CL">CHILE</option>
+                                                                                        <option value="CM">CAMEROON</option>
+                                                                                        <option value="CN">CHINA</option>
+                                                                                        <option value="CO">COLOMBIA</option>
+                                                                                        <option value="CR">COSTA RICA</option>
+                                                                                        <option value="CU">CUBA</option>
+                                                                                        <option value="CV">CAPE VERDE</option>
+                                                                                        <option value="CX">CHRISTMAS ISLAND</option>
+                                                                                        <option value="CY">CYPRUS</option>
+                                                                                        <option value="CZ">CZECH REPUBLIC</option>
+                                                                                        <option value="DE">GERMANY</option>
+                                                                                        <option value="DJ">DJIBOUTI</option>
+                                                                                        <option value="DK">DENMARK</option>
+                                                                                        <option value="DM">DOMINICA</option>
+                                                                                        <option value="DO">DOMINICAN REPUBLIC</option>
+                                                                                        <option value="DZ">ALGERIA</option>
+                                                                                        <option value="EC">ECUADOR</option>
+                                                                                        <option value="EE">ESTONIA</option>
+                                                                                        <option value="EG">EGYPT</option>
+                                                                                        <option value="ER">ERITREA</option>
+                                                                                        <option value="ES">SPAIN</option>
+                                                                                        <option value="ET">ETHIOPIA</option>
+                                                                                        <option value="FI">FINLAND</option>
+                                                                                        <option value="FJ">FIJI</option>
+                                                                                        <option value="FK">FALKLAND ISLANDS (MALVINAS)</option>
+                                                                                        <option value="FM">MICRONESIA, FEDERATED STATES OF</option>
+                                                                                        <option value="FO">FAROE ISLANDS</option>
+                                                                                        <option value="FR">FRANCE</option>
+                                                                                        <option value="GA">GABON</option>
+                                                                                        <option value="GB">UNITED KINGDOM</option>
+                                                                                        <option value="GD">GRENADA</option>
+                                                                                        <option value="GE">GEORGIA</option>
+                                                                                        <option value="GH">GHANA</option>
+                                                                                        <option value="GI">GIBRALTAR</option>
+                                                                                        <option value="GL">GREENLAND</option>
+                                                                                        <option value="GM">GAMBIA</option>
+                                                                                        <option value="GN">GUINEA</option>
+                                                                                        <option value="GQ">EQUATORIAL GUINEA</option>
+                                                                                        <option value="GR">GREECE</option>
+                                                                                        <option value="GT">GUATEMALA</option>
+                                                                                        <option value="GU">GUAM</option>
+                                                                                        <option value="GW">GUINEA-BISSAU</option>
+                                                                                        <option value="GY">GUYANA</option>
+                                                                                        <option value="HK">HONG KONG</option>
+                                                                                        <option value="HN">HONDURAS</option>
+                                                                                        <option value="HR">CROATIA</option>
+                                                                                        <option value="HT">HAITI</option>
+                                                                                        <option value="HU">HUNGARY</option>
+                                                                                        <option value="ID">INDONESIA</option>
+                                                                                        <option value="IE">IRELAND</option>
+                                                                                        <option value="IL">ISRAEL</option>
+                                                                                        <option value="IM">ISLE OF MAN</option>
+                                                                                        <option value="IN">INDIA</option>
+                                                                                        <option value="IQ">IRAQ</option>
+                                                                                        <option value="IR">IRAN, ISLAMIC REPUBLIC OF</option>
+                                                                                        <option value="IS">ICELAND</option>
+                                                                                        <option value="IT">ITALY</option>
+                                                                                        <option value="JM">JAMAICA</option>
+                                                                                        <option value="JO">JORDAN</option>
+                                                                                        <option value="JP">JAPAN</option>
+                                                                                        <option value="KE">KENYA</option>
+                                                                                        <option value="KG">KYRGYZSTAN</option>
+                                                                                        <option value="KH">CAMBODIA</option>
+                                                                                        <option value="KI">KIRIBATI</option>
+                                                                                        <option value="KM">COMOROS</option>
+                                                                                        <option value="KN">SAINT KITTS AND NEVIS</option>
+                                                                                        <option value="KP">KOREA DEMOCRATIC PEOPLES REPUBLIC OF</option>
+                                                                                        <option value="KR">KOREA REPUBLIC OF</option>
+                                                                                        <option value="KW">KUWAIT</option>
+                                                                                        <option value="KY">CAYMAN ISLANDS</option>
+                                                                                        <option value="KZ">KAZAKSTAN</option>
+                                                                                        <option value="LA">LAO PEOPLES DEMOCRATIC REPUBLIC</option>
+                                                                                        <option value="LB">LEBANON</option>
+                                                                                        <option value="LC">SAINT LUCIA</option>
+                                                                                        <option value="LI">LIECHTENSTEIN</option>
+                                                                                        <option value="LK">SRI LANKA</option>
+                                                                                        <option value="LR">LIBERIA</option>
+                                                                                        <option value="LS">LESOTHO</option>
+                                                                                        <option value="LT">LITHUANIA</option>
+                                                                                        <option value="LU">LUXEMBOURG</option>
+                                                                                        <option value="LV">LATVIA</option>
+                                                                                        <option value="LY">LIBYAN ARAB JAMAHIRIYA</option>
+                                                                                        <option value="MA">MOROCCO</option>
+                                                                                        <option value="MC">MONACO</option>
+                                                                                        <option value="MD">MOLDOVA, REPUBLIC OF</option>
+                                                                                        <option value="ME">MONTENEGRO</option>
+                                                                                        <option value="MF">SAINT MARTIN</option>
+                                                                                        <option value="MG">MADAGASCAR</option>
+                                                                                        <option value="MH">MARSHALL ISLANDS</option>
+                                                                                        <option value="MK">MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</option>
+                                                                                        <option value="ML">MALI</option>
+                                                                                        <option value="MM">MYANMAR</option>
+                                                                                        <option value="MN">MONGOLIA</option>
+                                                                                        <option value="MO">MACAU</option>
+                                                                                        <option value="MP">NORTHERN MARIANA ISLANDS</option>
+                                                                                        <option value="MR">MAURITANIA</option>
+                                                                                        <option value="MS">MONTSERRAT</option>
+                                                                                        <option value="MT">MALTA</option>
+                                                                                        <option value="MU">MAURITIUS</option>
+                                                                                        <option value="MV">MALDIVES</option>
+                                                                                        <option value="MW">MALAWI</option>
+                                                                                        <option value="MX">MEXICO</option>
+                                                                                        <option value="MY">MALAYSIA</option>
+                                                                                        <option value="MZ">MOZAMBIQUE</option>
+                                                                                        <option value="NA">NAMIBIA</option>
+                                                                                        <option value="NC">NEW CALEDONIA</option>
+                                                                                        <option value="NE">NIGER</option>
+                                                                                        <option value="NG" selected="Selected">NIGERIA</option>
+                                                                                        <option value="NI">NICARAGUA</option>
+                                                                                        <option value="NL">NETHERLANDS</option>
+                                                                                        <option value="NO">NORWAY</option>
+                                                                                        <option value="NP">NEPAL</option>
+                                                                                        <option value="NR">NAURU</option>
+                                                                                        <option value="NU">NIUE</option>
+                                                                                        <option value="NZ">NEW ZEALAND</option>
+                                                                                        <option value="OM">OMAN</option>
+                                                                                        <option value="PA">PANAMA</option>
+                                                                                        <option value="PE">PERU</option>
+                                                                                        <option value="PF">FRENCH POLYNESIA</option>
+                                                                                        <option value="PG">PAPUA NEW GUINEA</option>
+                                                                                        <option value="PH">PHILIPPINES</option>
+                                                                                        <option value="PK">PAKISTAN</option>
+                                                                                        <option value="PL">POLAND</option>
+                                                                                        <option value="PM">SAINT PIERRE AND MIQUELON</option>
+                                                                                        <option value="PN">PITCAIRN</option>
+                                                                                        <option value="PR">PUERTO RICO</option>
+                                                                                        <option value="PT">PORTUGAL</option>
+                                                                                        <option value="PW">PALAU</option>
+                                                                                        <option value="PY">PARAGUAY</option>
+                                                                                        <option value="QA">QATAR</option>
+                                                                                        <option value="RO">ROMANIA</option>
+                                                                                        <option value="RS">SERBIA</option>
+                                                                                        <option value="RU">RUSSIAN FEDERATION</option>
+                                                                                        <option value="RW">RWANDA</option>
+                                                                                        <option value="SA">SAUDI ARABIA</option>
+                                                                                        <option value="SB">SOLOMON ISLANDS</option>
+                                                                                        <option value="SC">SEYCHELLES</option>
+                                                                                        <option value="SD">SUDAN</option>
+                                                                                        <option value="SE">SWEDEN</option>
+                                                                                        <option value="SG">SINGAPORE</option>
+                                                                                        <option value="SH">SAINT HELENA</option>
+                                                                                        <option value="SI">SLOVENIA</option>
+                                                                                        <option value="SK">SLOVAKIA</option>
+                                                                                        <option value="SL">SIERRA LEONE</option>
+                                                                                        <option value="SM">SAN MARINO</option>
+                                                                                        <option value="SN">SENEGAL</option>
+                                                                                        <option value="SO">SOMALIA</option>
+                                                                                        <option value="SR">SURINAME</option>
+                                                                                        <option value="ST">SAO TOME AND PRINCIPE</option>
+                                                                                        <option value="SV">EL SALVADOR</option>
+                                                                                        <option value="SY">SYRIAN ARAB REPUBLIC</option>
+                                                                                        <option value="SZ">SWAZILAND</option>
+                                                                                        <option value="TC">TURKS AND CAICOS ISLANDS</option>
+                                                                                        <option value="TD">CHAD</option>
+                                                                                        <option value="TG">TOGO</option>
+                                                                                        <option value="TH">THAILAND</option>
+                                                                                        <option value="TJ">TAJIKISTAN</option>
+                                                                                        <option value="TK">TOKELAU</option>
+                                                                                        <option value="TL">TIMOR-LESTE</option>
+                                                                                        <option value="TM">TURKMENISTAN</option>
+                                                                                        <option value="TN">TUNISIA</option>
+                                                                                        <option value="TO">TONGA</option>
+                                                                                        <option value="TR">TURKEY</option>
+                                                                                        <option value="TT">TRINIDAD AND TOBAGO</option>
+                                                                                        <option value="TV">TUVALU</option>
+                                                                                        <option value="TW">TAIWAN, PROVINCE OF CHINA</option>
+                                                                                        <option value="TZ">TANZANIA, UNITED REPUBLIC OF</option>
+                                                                                        <option value="UA">UKRAINE</option>
+                                                                                        <option value="UG">UGANDA</option>
+                                                                                        <option value="US">UNITED STATES</option>
+                                                                                        <option value="UY">URUGUAY</option>
+                                                                                        <option value="UZ">UZBEKISTAN</option>
+                                                                                        <option value="VA">HOLY SEE (VATICAN CITY STATE)</option>
+                                                                                        <option value="VC">SAINT VINCENT AND THE GRENADINES</option>
+                                                                                        <option value="VE">VENEZUELA</option>
+                                                                                        <option value="VG">VIRGIN ISLANDS, BRITISH</option>
+                                                                                        <option value="VI">VIRGIN ISLANDS, U.S.</option>
+                                                                                        <option value="VN">VIET NAM</option>
+                                                                                        <option value="VU">VANUATU</option>
+                                                                                        <option value="WF">WALLIS AND FUTUNA</option>
+                                                                                        <option value="WS">SAMOA</option>
+                                                                                        <option value="XK">KOSOVO</option>
+                                                                                        <option value="YE">YEMEN</option>
+                                                                                        <option value="YT">MAYOTTE</option>
+                                                                                        <option value="ZA">SOUTH AFRICA</option>
+                                                                                        <option value="ZM">ZAMBIA</option>
+                                                                                        <option value="ZW">ZIMBABWE</option>
+                                                                            </select>
+                                    <i class="arrow double"></i>                    
+                                </label>  
+                                 <div class="er">
+                                                                                     </div>
+                            </div>
+                            <!-- end section -->      
+                                         
+                            <div class="section">
+                                <label for="passport" class="field prepend-icon">
+                                        <input readonly="" type="text" name="passport" id="passport" class="gui-input" value="A07976429">
+                                        <label for="firstname" class="field-icon"><i class="fa fa-user"></i></label>  
+                                    </label>
+                                 
+                            </div>
+                           
+                            <div class="section row">
+                            <div class="col-md-12">
+                                
+                                <label for="Yellow card Number" class="field prepend-icon">
+                                        <input readonly="" type="text" name="yellow_card_number" id="yellow_card_Number" class="gui-input" value=" a053402">
+                                        <label for="yellow card number" class="field-icon"><i class="fa fa-user"></i></label>
+                            
+                            
+
+                                                    </label>
+                            
+                                <div id="displayContent"></div>
+                                </div>
+                            
+                            </div>
+                            <div class="section"><div class="text-left">
+                            <a href="https://yellowcardnigeria.com/users/void_user_list/566041" style="float:left;">View In void List</a>
+                        </div></div>
+                   <div class="section">
+                                <label for="useremail" class="field prepend-icon">
+                                    <input readonly="" type="email" name="useremail" id="useremail" class="gui-input" value="frankoambo@yahoo.com">
+                                    <label for="useremail" class="field-icon"><i class="fa fa-envelope"></i></label>  
+                                </label>
+                         
+                            </div>
+
+                        </div><!-- end .form-body section -->
+
+                </div>
+
+            </div>
+            <!-- end: .admin-form -->
+
+                          <div class="panel panel-visible" id="spy1">
+                        <div class="panel-heading">
+                            <div class="panel-title hidden-xs">
+                                <span class="glyphicon glyphicon-tasks"></span>Vaccine List</div>
+
+                            </div>
+                            <div class="panel-body pn">
+                               <div id="datatable2_wrapper" class="dataTables_wrapper no-footer"><div class="dt-panelmenu clearfix"><div class="dataTables_length" id="datatable2_length"><label>Show <select name="datatable2_length" aria-controls="datatable2" class=""><option value="5">5</option><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="-1">All</option></select> entries</label></div><div id="datatable2_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="datatable2"></label></div></div><table class="table table-striped table-hover dataTable no-footer" id="datatable2" cellspacing="0" width="100%" role="grid" aria-describedby="datatable2_info" style="width: 100%;">
+                                        <thead>
+                                            <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-sort="ascending" aria-label="UserName: activate to sort column descending" style="width: 120px;">UserName</th><th class="sorting" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-label="Vaccine Name: activate to sort column ascending" style="width: 89px;">Vaccine Name</th><th class="sorting" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-label="Is taken: activate to sort column ascending" style="width: 49px;">Is taken</th><th class="sorting" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-label="Port no: activate to sort column ascending" style="width: 47px;">Port no</th><th class="sorting" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-label="Next vaccine: activate to sort column ascending" style="width: 79px;">Next vaccine</th><th class="sorting" tabindex="0" aria-controls="datatable2" rowspan="1" colspan="1" aria-label="Vaccine taken at: activate to sort column ascending" style="width: 102px;">Vaccine taken at</th><th class="sorting_disabled" rowspan="1" colspan="1" aria-label="Vaccine expiry date" style="width: 121px;">Vaccine expiry date</th></tr>
+                                        </thead>
+                                        <tbody>
+                                                                                    
+                                                                            <tr role="row" class="odd">
+                                        
+                                                <td class="sorting_1"><a href="https://yellowcardnigeria.com/dashboard#" id="userdetails" class="userdetails" data-id="566041">WAKAWA KUCHELI ALI</a></td>
+                                                <td>OPV</td>
+                                                <td>yes</td>
+                                                 <td>1</td>
+                                                <td>2021-01-16</td>
+                                                <td>2020-01-17</td>
+                                                <td>2021-01-16</td>
+                                           <!--     <td><img class="evedence_pics" src="" /></td> -->
+                                            </tr></tbody>
+                                    </table><div class="dt-panelfooter clearfix"><div class="dataTables_info" id="datatable2_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div><div class="dataTables_paginate paging_simple_numbers" id="datatable2_paginate"><span><a class="paginate_button current" aria-controls="datatable2" data-dt-idx="0" tabindex="0">1</a></span></div></div></div>
+                                </div>
+                            </div>
+
+        </div>
+        <div class="col-md-3">
+
+             <div class="panel" id="p14">
+                                
+                                <div class="panel-menu">
+                                    <div class="chart-legend" data-chart-id="#high-area">
+                                      <img src="./Yellow Card Project_files/1579268396_566041_qrcode.png" class="mw140 mr25 mb20">
+                                    </div>
+                                </div>
+                                <div class="panel-body pn">
+                                   <table class="table mbn tc-med-1 tc-bold-last">
+                                        <thead>
+                                            <tr class="hidden">
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                           
+                                                <td colspan="2"><center>Yellow Card History</center></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <span class=" mr5 va-b"></span>a053402</td>
+                                                <td>
+                                                 Valid                                                 </td>
+                                            </tr>
+                                                                                          <tr>
+                                              
+                                              </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+             </div>
+         </div>
+
+    </div>
+
+
+ </section>
+ </section>
+ <!-- BEGIN: PAGE SCRIPTS -->
+
+    <!-- jQuery -->
+    <script src="./Yellow Card Project_files/jquery-1.11.1.min.js"></script>
+    <script src="./Yellow Card Project_files/jquery-ui.min.js"></script>
+
+
+<!-- JS -->
+<script type="text/javascript" src="./Yellow Card Project_files/chosen.jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="./Yellow Card Project_files/bootstrap.min.js"></script>
+  
+
+    <!-- Sparklines CDN -->
+    <script type="text/javascript" src="./Yellow Card Project_files/jquery.sparkline.min.js"></script>
+
+    <!-- Chart Plugins -->
+    <script src="./Yellow Card Project_files/highcharts.js"></script>
+    <script src="./Yellow Card Project_files/circles.js"></script>
+    <script src="./Yellow Card Project_files/raphael.js"></script>
+  
+   
+
+    <!-- Holder js  -->
+     <script src="./Yellow Card Project_files/holder.min.js"></script>
+
+    <!-- Theme Javascript -->
+    <script src="./Yellow Card Project_files/utility.js"></script>
+    <script src="./Yellow Card Project_files/main.js"></script>
+    <script src="./Yellow Card Project_files/demo.js"></script>
+
+    <script src="./Yellow Card Project_files/jquery.steps.js"></script>
+ <script src="./Yellow Card Project_files/jquery.validate.min.js"></script>
+<script src="./Yellow Card Project_files/additional-methods.min.js"></script>
+<script type="text/javascript" src="./Yellow Card Project_files/moment.js"></script>
+
+<script src="./Yellow Card Project_files/bootstrap-datetimepicker.min.js"></script>
+
+
+    <!-- Admin Panels  -->
+    <script src="./Yellow Card Project_files/json2.js"></script>
+    <script src="./Yellow Card Project_files/jquery.ui.touch-punch.min.js"></script>
+    <script src="./Yellow Card Project_files/adminpanels.js"></script>
+    <script src="./Yellow Card Project_files/jquery.dataTables.js"></script>
+    <script src="./Yellow Card Project_files/dataTables.tableTools.min.js"></script>
+
+
+    
+    <!-- Page Javascript -->
+    <script src="./Yellow Card Project_files/widgets.js"></script>
+    <script>
+        $('#datatable').dataTable({
+        "aoColumnDefs": [{
+            'bSortable': false,
+            'aTargets': [-1]
+        }],
+        "oLanguage": {
+            "oPaginate": {
+                "sPrevious": "",
+                "sNext": ""
+            }
+        },
+        "iDisplayLength": 10,
+        "aLengthMenu": [
+            [5, 10, 25, 50, -1],
+            [5, 10, 25, 50, "All"]
+        ],
+        "sDom": 't<"dt-panelfooter clearfix"ip>',
+        "oTableTools": {
+            "sSwfPath": "https://yellowcardnigeria.com/vendor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf"
+        }
+    });
+
+
+
+</script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+        jQuery("a.accordion-toggle").click(function(){
+        //alert('hi');
+        jQuery(this).toggleClass('menu-open');
+
+        });
+        jQuery('#datetimepicker2').datetimepicker({ format:'YYYY-MM-DD'});
+        jQuery('#datetimepicker20').datetimepicker({ format:'YYYY-MM-DD'});
+        jQuery('#datetimepicker21').datetimepicker({ format:'YYYY-MM-DD'});
+       
+            $('#datatable2').dataTable({
+                "aoColumnDefs": [{
+                    'bSortable': false,
+                    'aTargets': [-1]
+                }],
+                "paging": true,
+                "oLanguage": {
+                    "oPaginate": {
+                        "sPrevious": "",
+                        "sNext": ""
+                    }
+                },
+                "iDisplayLength": 5,
+                "aLengthMenu": [
+                    [5, 10, 25, 50, -1],
+                    [5, 10, 25, 50, "All"]
+                ],
+                // "ajax": 'http://yellowcardnigeria.com/users/fetchdata1' ,
+                // "deferLoading": 500,
+                // "processing": true,
+                // "serverSide": true,
+                "sDom": '<"dt-panelmenu clearfix"lfr>t<"dt-panelfooter clearfix"ip>',
+                "oTableTools": {
+                    "sSwfPath": "vendor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf"
+                }
+            });
+
+
+            // $('#datatable22').dataTable({
+            //     "aoColumnDefs": [{
+            //         'bSortable': false,
+            //         'aTargets': [-1]
+            //     }],
+            //     "paging": true,
+            //     "oLanguage": {
+            //         "oPaginate": {
+            //             "sPrevious": "",
+            //             "sNext": ""
+            //         }
+            //     },
+            //     "iDisplayLength": 5,
+            //     "aLengthMenu": [
+            //         [2, 5, 10, 50, -1],
+            //         [2, 5, 10, 50, "All"]
+            //     ],
+            //     "ajax": 'http://yellowcardnigeria.com/users/fetchdata1' ,
+            //     "deferLoading": 230,
+            //     "processing": true,
+            //     "serverSide": true,
+            //     "sDom": '<"dt-panelmenu clearfix"lfr>t<"dt-panelfooter clearfix"ip>',
+            //     "oTableTools": {
+            //         "sSwfPath": "vendor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf"
+            //     }
+            // });
+			
+			$('#datatable12').dataTable({
+                "aoColumnDefs": [{
+                    'bSortable': false,
+                    'aTargets': [-1]
+                }],
+                "oLanguage": {
+                    "oPaginate": {
+                        "sPrevious": "",
+                        "sNext": ""
+                    }
+                },
+                "iDisplayLength": 5,
+                "aLengthMenu": [
+                    [5, 10, 25, 50, -1],
+                    [5, 10, 25, 50, "All"]
+                ],
+                "sDom": '<"dt-panelmenu clearfix"lfr>t<"dt-panelfooter clearfix"ip>',
+                "oTableTools": {
+                    "sSwfPath": "vendor/plugins/datatables/extensions/TableTools/swf/copy_csv_xls_pdf.swf"
+                }
+            });
+
+             
+
+
+
+        });
+    </script>
+
+    <script type="text/javascript">
+$('span.radio').on('click', function(){
+var radButton_d = $(this).parent().find('input[type=radio]').attr('id');
+var radButton = $(this).parent().find('input[type=radio]');
+$(radButton).prop("checked", true);
+if(radButton_d == 'uploadbybrowse'){
+    $('input[type=file]').click();
+    var vel = $('input[type=file]').val();
+    $('#uploadbybrowse').append(vel);
+}
+else{
+    $('#access_cam').click();
+}
+})
+            
+ /************************** APPLIED FOR JOB CODE START *************************************/
+$('body').on('click', '.userdetails', function(){
+
+      var userid    = $(this).attr('data-id');
+
+      if(userid == "")
+      {
+        return false ;
+      }
+    
+          var myData   = {
+            userView   : 'true',
+            userid     : userid
+        }; //post variables
+
+                 $.ajax({
+            type: "POST",
+            url: "https://yellowcardnigeria.com/users/usersDetails",
+            dataType: 'json',
+            data: myData,
+            success: function(data) {
+
+                if(data.status == "true")
+                {
+                   var id        = data.user_data[0].id ;
+                   var email     = data.user_data[0].email ;
+                   var firstname = data.user_data[0].firstname ;
+                   var lastname  = data.user_data[0].lastname ;
+
+                
+                    var dob_value                 = data.user_data.meta_info[0][0].meta_value ;
+                    var gender_value              = data.user_data.meta_info[0][1].meta_value ; 
+                    var mobile_phone_value        = data.user_data.meta_info[0][2].meta_value ; 
+                    var country_value             = data.user_data.meta_info[0][3].meta_value ;
+                    var passport_value            = data.user_data.meta_info[0][4].meta_value ; 
+                    var yellow_card_number_value  = data.user_data.meta_info[0][5].meta_value ;
+                    var profile_pic_value         = data.user_data.meta_info[0][6].meta_value ;  
+                }
+            
+             
+               
+                $(".userview52 .modal-body").html('<li class="list-group-item">'+
+                '<b>Name :</b> <a class="pull-right">'+firstname+' '+lastname+'</a></li>'+
+                                     '<li class="list-group-item">'+
+                                        '<b>Email :</b> <a class="pull-right">'+email+'</a>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Date of birth :</b> <a class="pull-right">'+dob_value+'</a>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Gender :</b> <a class="pull-right">'+gender_value+'</a>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Mobile No :</b> <a class="pull-right">'+mobile_phone_value+'</a>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Passport :</b> <a class="pull-right">'+passport_value+'</a>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Yellow Card No :</b> <a class="pull-right">'+yellow_card_number_value+'</a>'+
+                                      '</li>'+
+                                       '<li class="list-group-item">'+
+                                        '<b>Profile Pic :</b><div class="img-c"><img class="img10"src="https://yellowcardnigeria.com/uploads/'+profile_pic_value+'" width="150px" /></div>'+
+                                      '</li>'+
+                                      '<li class="list-group-item">'+
+                                        '<b>Country</b> <a class="pull-right">'+country_value+'</a>'+
+                                      '</li>');
+
+
+                  $("#hit_Me").click();
+           
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError); //throw any errors
+            }
+        });   
+})
+ </script>
+
+<style>
+#rport_chosen .chosen-choices input {
+	height: 100% !important;
+}
+</style>
+
+
+
+
+
+</div><div class="bootstrap-datetimepicker-widget usetwentyfour dropdown-menu" style="z-index:9999 !important;"><ul class="list-unstyled"><li class="collapse in"><div class="datepicker"><div class="datepicker-days" style="display: block;"><table class="table-condensed"><thead><tr><th class="prev disabled">‹</th><th colspan="5" class="picker-switch">April 8</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day old disabled">30</td><td class="day old disabled">31</td><td class="day disabled">1</td><td class="day disabled">2</td><td class="day disabled">3</td><td class="day disabled">4</td><td class="day disabled">5</td></tr><tr><td class="day disabled">6</td><td class="day disabled">7</td><td class="day disabled">8</td><td class="day disabled">9</td><td class="day disabled">10</td><td class="day disabled">11</td><td class="day disabled">12</td></tr><tr><td class="day disabled">13</td><td class="day disabled">14</td><td class="day disabled">15</td><td class="day disabled">16</td><td class="day disabled">17</td><td class="day disabled">18</td><td class="day active disabled">19</td></tr><tr><td class="day disabled">20</td><td class="day disabled">21</td><td class="day disabled">22</td><td class="day disabled">23</td><td class="day disabled">24</td><td class="day disabled">25</td><td class="day disabled">26</td></tr><tr><td class="day disabled">27</td><td class="day disabled">28</td><td class="day disabled">29</td><td class="day disabled">30</td><td class="day new disabled">1</td><td class="day new disabled">2</td><td class="day new disabled">3</td></tr><tr><td class="day new disabled">4</td><td class="day new disabled">5</td><td class="day new disabled">6</td><td class="day new disabled">7</td><td class="day new disabled">8</td><td class="day new disabled">9</td><td class="day new disabled">10</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev disabled">‹</th><th colspan="5" class="picker-switch">8</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month disabled">Jan</span><span class="month disabled">Feb</span><span class="month disabled">Mar</span><span class="month active disabled">Apr</span><span class="month disabled">May</span><span class="month disabled">Jun</span><span class="month disabled">Jul</span><span class="month disabled">Aug</span><span class="month disabled">Sep</span><span class="month disabled">Oct</span><span class="month disabled">Nov</span><span class="month disabled">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev disabled">‹</th><th colspan="5" class="picker-switch">0-9</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old disabled">-1</span><span class="year disabled">0</span><span class="year disabled">1</span><span class="year disabled">2</span><span class="year disabled">3</span><span class="year disabled">4</span><span class="year disabled">5</span><span class="year disabled">6</span><span class="year disabled">7</span><span class="year active disabled">8</span><span class="year disabled">9</span><span class="year old disabled">10</span></td></tr></tbody></table></div></div></li><li class="picker-switch accordion-toggle"><a class="btn" style="width:100%"><span class="glyphicon glyphicon-time"></span></a></li><li class="collapse"><div class="timepicker"><div class="timepicker-picker"><table class="table-condensed"><tbody><tr><td><a href="https://yellowcardnigeria.com/dashboard#" class="btn" data-action="incrementHours"><span class="glyphicon glyphicon-chevron-up"></span></a></td><td class="separator"></td><td><a href="https://yellowcardnigeria.com/dashboard#" class="btn" data-action="incrementMinutes"><span class="glyphicon glyphicon-chevron-up"></span></a></td></tr><tr><td><span data-action="showHours" data-time-component="hours" class="timepicker-hour">00</span></td> <td class="separator">:</td><td><span data-action="showMinutes" data-time-component="minutes" class="timepicker-minute">00</span></td> </tr><tr><td><a href="https://yellowcardnigeria.com/dashboard#" class="btn" data-action="decrementHours"><span class="glyphicon glyphicon-chevron-down"></span></a></td><td class="separator"></td><td><a href="https://yellowcardnigeria.com/dashboard#" class="btn" data-action="decrementMinutes"><span class="glyphicon glyphicon-chevron-down"></span></a></td></tr></tbody></table></div><div class="timepicker-hours" data-action="selectHour" style="display: none;"><table class="table-condensed"><tbody><tr><td class="hour">00</td><td class="hour">01</td><td class="hour">02</td><td class="hour">03</td></tr><tr><td class="hour">04</td><td class="hour">05</td><td class="hour">06</td><td class="hour">07</td></tr><tr><td class="hour">08</td><td class="hour">09</td><td class="hour">10</td><td class="hour">11</td></tr><tr><td class="hour">12</td><td class="hour">13</td><td class="hour">14</td><td class="hour">15</td></tr><tr><td class="hour">16</td><td class="hour">17</td><td class="hour">18</td><td class="hour">19</td></tr><tr><td class="hour">20</td><td class="hour">21</td><td class="hour">22</td><td class="hour">23</td></tr></tbody></table></div><div class="timepicker-minutes" data-action="selectMinute" style="display: none;"><table class="table-condensed"><tbody><tr><td class="minute">00</td><td class="minute">05</td><td class="minute">10</td><td class="minute">15</td></tr><tr><td class="minute">20</td><td class="minute">25</td><td class="minute">30</td><td class="minute">35</td></tr><tr><td class="minute">40</td><td class="minute">45</td><td class="minute">50</td><td class="minute">55</td></tr></tbody></table></div></div></li></ul></div></body></html>
